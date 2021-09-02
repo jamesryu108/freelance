@@ -13,6 +13,20 @@
 		9E99F0B926DFFD9A00FC07CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E99F0B726DFFD9A00FC07CF /* Main.storyboard */; };
 		9E99F0BB26DFFDA200FC07CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E99F0BA26DFFDA200FC07CF /* Assets.xcassets */; };
 		9E99F0BE26DFFDA200FC07CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E99F0BC26DFFDA200FC07CF /* LaunchScreen.storyboard */; };
+		9E99F0CC26E000A300FC07CF /* ActivitiesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E99F0CB26E000A300FC07CF /* ActivitiesCollectionViewCell.swift */; };
+		9E99F0CF26E0019300FC07CF /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E99F0CE26E0019300FC07CF /* Anchor.swift */; };
+		9E99F0D826E0048600FC07CF /* FunkisQText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9E99F0D226E003E600FC07CF /* FunkisQText-Light.otf */; };
+		9E99F0D926E0048800FC07CF /* FunkisQText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9E99F0D426E003E600FC07CF /* FunkisQText-Medium.otf */; };
+		9E99F0DA26E0048A00FC07CF /* FunkisQText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9E99F0D126E003E600FC07CF /* FunkisQText-Regular.otf */; };
+		9E99F0DB26E0048D00FC07CF /* FunkisQText-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9E99F0D526E003E600FC07CF /* FunkisQText-SemiBold.otf */; };
+		9E99F0DC26E0048F00FC07CF /* KievitCompPro-Exlig.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E99F0D626E0047A00FC07CF /* KievitCompPro-Exlig.ttf */; };
+		9E99F0DE26E004BF00FC07CF /* FontCollections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E99F0DD26E004BF00FC07CF /* FontCollections.swift */; };
+		9E99F0E126E01A6300FC07CF /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E99F0E026E01A6300FC07CF /* CustomLabel.swift */; };
+		9E99F0E326E0277300FC07CF /* DateFormatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E99F0E226E0277300FC07CF /* DateFormatManager.swift */; };
+		9E99F0E626E02B8C00FC07CF /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E99F0E526E02B8C00FC07CF /* UIImageView.swift */; };
+		9E99F0E926E02E0200FC07CF /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E99F0E826E02E0200FC07CF /* Network.swift */; };
+		9E99F0EA26E03A6100FC07CF /* FunkisQText-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9E99F0D326E003E600FC07CF /* FunkisQText-Bold.otf */; };
+		9E99F0EC26E0611D00FC07CF /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E99F0EB26E0611D00FC07CF /* Activities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		9E99F0BA26DFFDA200FC07CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E99F0BD26DFFDA200FC07CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E99F0BF26DFFDA200FC07CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E99F0CB26E000A300FC07CF /* ActivitiesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesCollectionViewCell.swift; sourceTree = "<group>"; };
+		9E99F0CE26E0019300FC07CF /* Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
+		9E99F0D126E003E600FC07CF /* FunkisQText-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FunkisQText-Regular.otf"; sourceTree = "<group>"; };
+		9E99F0D226E003E600FC07CF /* FunkisQText-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FunkisQText-Light.otf"; sourceTree = "<group>"; };
+		9E99F0D326E003E600FC07CF /* FunkisQText-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FunkisQText-Bold.otf"; sourceTree = "<group>"; };
+		9E99F0D426E003E600FC07CF /* FunkisQText-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FunkisQText-Medium.otf"; sourceTree = "<group>"; };
+		9E99F0D526E003E600FC07CF /* FunkisQText-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FunkisQText-SemiBold.otf"; sourceTree = "<group>"; };
+		9E99F0D626E0047A00FC07CF /* KievitCompPro-Exlig.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KievitCompPro-Exlig.ttf"; sourceTree = "<group>"; };
+		9E99F0DD26E004BF00FC07CF /* FontCollections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontCollections.swift; sourceTree = "<group>"; };
+		9E99F0E026E01A6300FC07CF /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		9E99F0E226E0277300FC07CF /* DateFormatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatManager.swift; sourceTree = "<group>"; };
+		9E99F0E526E02B8C00FC07CF /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		9E99F0E826E02E0200FC07CF /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		9E99F0EB26E0611D00FC07CF /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,15 @@
 		9E99F0B026DFFD9A00FC07CF /* freelance */ = {
 			isa = PBXGroup;
 			children = (
+				9E99F0E726E02DF100FC07CF /* Data Structure */,
+				9E99F0E426E02B8100FC07CF /* UIImageView */,
+				9E99F0D026E003DC00FC07CF /* Font */,
+				9E99F0CD26E0018500FC07CF /* Anchor */,
+				9E99F0CA26E0007600FC07CF /* ActivitiesCell */,
+				9E99F0C926DFFE7600FC07CF /* TextStylizer */,
+				9E99F0C726DFFE6000FC07CF /* ActivityIndicator */,
+				9E99F0C626DFFE4F00FC07CF /* DateFormatManager */,
+				9E99F0C526DFFE4100FC07CF /* Network */,
 				9E99F0B126DFFD9A00FC07CF /* AppDelegate.swift */,
 				9E99F0B326DFFD9A00FC07CF /* SceneDelegate.swift */,
 				9E99F0B526DFFD9A00FC07CF /* ViewController.swift */,
@@ -65,6 +102,83 @@
 				9E99F0BF26DFFDA200FC07CF /* Info.plist */,
 			);
 			path = freelance;
+			sourceTree = "<group>";
+		};
+		9E99F0C526DFFE4100FC07CF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9E99F0E826E02E0200FC07CF /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9E99F0C626DFFE4F00FC07CF /* DateFormatManager */ = {
+			isa = PBXGroup;
+			children = (
+				9E99F0E226E0277300FC07CF /* DateFormatManager.swift */,
+			);
+			path = DateFormatManager;
+			sourceTree = "<group>";
+		};
+		9E99F0C726DFFE6000FC07CF /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		9E99F0C926DFFE7600FC07CF /* TextStylizer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextStylizer;
+			sourceTree = "<group>";
+		};
+		9E99F0CA26E0007600FC07CF /* ActivitiesCell */ = {
+			isa = PBXGroup;
+			children = (
+				9E99F0CB26E000A300FC07CF /* ActivitiesCollectionViewCell.swift */,
+			);
+			path = ActivitiesCell;
+			sourceTree = "<group>";
+		};
+		9E99F0CD26E0018500FC07CF /* Anchor */ = {
+			isa = PBXGroup;
+			children = (
+				9E99F0CE26E0019300FC07CF /* Anchor.swift */,
+			);
+			path = Anchor;
+			sourceTree = "<group>";
+		};
+		9E99F0D026E003DC00FC07CF /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9E99F0D326E003E600FC07CF /* FunkisQText-Bold.otf */,
+				9E99F0D226E003E600FC07CF /* FunkisQText-Light.otf */,
+				9E99F0D426E003E600FC07CF /* FunkisQText-Medium.otf */,
+				9E99F0D126E003E600FC07CF /* FunkisQText-Regular.otf */,
+				9E99F0D526E003E600FC07CF /* FunkisQText-SemiBold.otf */,
+				9E99F0D626E0047A00FC07CF /* KievitCompPro-Exlig.ttf */,
+				9E99F0DD26E004BF00FC07CF /* FontCollections.swift */,
+				9E99F0E026E01A6300FC07CF /* CustomLabel.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		9E99F0E426E02B8100FC07CF /* UIImageView */ = {
+			isa = PBXGroup;
+			children = (
+				9E99F0E526E02B8C00FC07CF /* UIImageView.swift */,
+			);
+			path = UIImageView;
+			sourceTree = "<group>";
+		};
+		9E99F0E726E02DF100FC07CF /* Data Structure */ = {
+			isa = PBXGroup;
+			children = (
+				9E99F0EB26E0611D00FC07CF /* Activities.swift */,
+			);
+			path = "Data Structure";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +239,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E99F0D826E0048600FC07CF /* FunkisQText-Light.otf in Resources */,
+				9E99F0DB26E0048D00FC07CF /* FunkisQText-SemiBold.otf in Resources */,
 				9E99F0BE26DFFDA200FC07CF /* LaunchScreen.storyboard in Resources */,
 				9E99F0BB26DFFDA200FC07CF /* Assets.xcassets in Resources */,
 				9E99F0B926DFFD9A00FC07CF /* Main.storyboard in Resources */,
+				9E99F0DC26E0048F00FC07CF /* KievitCompPro-Exlig.ttf in Resources */,
+				9E99F0DA26E0048A00FC07CF /* FunkisQText-Regular.otf in Resources */,
+				9E99F0EA26E03A6100FC07CF /* FunkisQText-Bold.otf in Resources */,
+				9E99F0D926E0048800FC07CF /* FunkisQText-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +258,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E99F0E926E02E0200FC07CF /* Network.swift in Sources */,
 				9E99F0B626DFFD9A00FC07CF /* ViewController.swift in Sources */,
+				9E99F0E626E02B8C00FC07CF /* UIImageView.swift in Sources */,
+				9E99F0CF26E0019300FC07CF /* Anchor.swift in Sources */,
+				9E99F0CC26E000A300FC07CF /* ActivitiesCollectionViewCell.swift in Sources */,
+				9E99F0E126E01A6300FC07CF /* CustomLabel.swift in Sources */,
+				9E99F0E326E0277300FC07CF /* DateFormatManager.swift in Sources */,
 				9E99F0B226DFFD9A00FC07CF /* AppDelegate.swift in Sources */,
+				9E99F0DE26E004BF00FC07CF /* FontCollections.swift in Sources */,
+				9E99F0EC26E0611D00FC07CF /* Activities.swift in Sources */,
 				9E99F0B426DFFD9A00FC07CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
