@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E67B41C26E3EB1400C3F1F4 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E67B41B26E3EB1400C3F1F4 /* CustomTextView.swift */; };
+		9E67B41E26E3ED7F00C3F1F4 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E67B41D26E3ED7F00C3F1F4 /* String.swift */; };
+		9E6B8E7926E54296006B3E9D /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6B8E7826E54296006B3E9D /* Date.swift */; };
 		9E99F0B226DFFD9A00FC07CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E99F0B126DFFD9A00FC07CF /* AppDelegate.swift */; };
 		9E99F0B426DFFD9A00FC07CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E99F0B326DFFD9A00FC07CF /* SceneDelegate.swift */; };
 		9E99F0B626DFFD9A00FC07CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E99F0B526DFFD9A00FC07CF /* ViewController.swift */; };
@@ -30,6 +33,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E67B41B26E3EB1400C3F1F4 /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		9E67B41D26E3ED7F00C3F1F4 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		9E6B8E7826E54296006B3E9D /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		9E99F0AE26DFFD9A00FC07CF /* freelance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freelance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E99F0B126DFFD9A00FC07CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E99F0B326DFFD9A00FC07CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,9 +71,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E67B41F26E3ED8200C3F1F4 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				9E67B41D26E3ED7F00C3F1F4 /* String.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		9E6B8E7726E5428C006B3E9D /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				9E6B8E7826E54296006B3E9D /* Date.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
 		9E99F0A526DFFD9900FC07CF = {
 			isa = PBXGroup;
 			children = (
+				9E67B41F26E3ED8200C3F1F4 /* String */,
 				9E99F0B026DFFD9A00FC07CF /* freelance */,
 				9E99F0AF26DFFD9A00FC07CF /* Products */,
 			);
@@ -84,13 +107,12 @@
 		9E99F0B026DFFD9A00FC07CF /* freelance */ = {
 			isa = PBXGroup;
 			children = (
+				9E6B8E7726E5428C006B3E9D /* Date */,
 				9E99F0E726E02DF100FC07CF /* Data Structure */,
 				9E99F0E426E02B8100FC07CF /* UIImageView */,
 				9E99F0D026E003DC00FC07CF /* Font */,
 				9E99F0CD26E0018500FC07CF /* Anchor */,
 				9E99F0CA26E0007600FC07CF /* ActivitiesCell */,
-				9E99F0C926DFFE7600FC07CF /* TextStylizer */,
-				9E99F0C726DFFE6000FC07CF /* ActivityIndicator */,
 				9E99F0C626DFFE4F00FC07CF /* DateFormatManager */,
 				9E99F0C526DFFE4100FC07CF /* Network */,
 				9E99F0B126DFFD9A00FC07CF /* AppDelegate.swift */,
@@ -120,20 +142,6 @@
 			path = DateFormatManager;
 			sourceTree = "<group>";
 		};
-		9E99F0C726DFFE6000FC07CF /* ActivityIndicator */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ActivityIndicator;
-			sourceTree = "<group>";
-		};
-		9E99F0C926DFFE7600FC07CF /* TextStylizer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = TextStylizer;
-			sourceTree = "<group>";
-		};
 		9E99F0CA26E0007600FC07CF /* ActivitiesCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +169,7 @@
 				9E99F0D626E0047A00FC07CF /* KievitCompPro-Exlig.ttf */,
 				9E99F0DD26E004BF00FC07CF /* FontCollections.swift */,
 				9E99F0E026E01A6300FC07CF /* CustomLabel.swift */,
+				9E67B41B26E3EB1400C3F1F4 /* CustomTextView.swift */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -259,12 +268,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E99F0E926E02E0200FC07CF /* Network.swift in Sources */,
+				9E67B41E26E3ED7F00C3F1F4 /* String.swift in Sources */,
 				9E99F0B626DFFD9A00FC07CF /* ViewController.swift in Sources */,
+				9E67B41C26E3EB1400C3F1F4 /* CustomTextView.swift in Sources */,
 				9E99F0E626E02B8C00FC07CF /* UIImageView.swift in Sources */,
 				9E99F0CF26E0019300FC07CF /* Anchor.swift in Sources */,
 				9E99F0CC26E000A300FC07CF /* ActivitiesCollectionViewCell.swift in Sources */,
 				9E99F0E126E01A6300FC07CF /* CustomLabel.swift in Sources */,
 				9E99F0E326E0277300FC07CF /* DateFormatManager.swift in Sources */,
+				9E6B8E7926E54296006B3E9D /* Date.swift in Sources */,
 				9E99F0B226DFFD9A00FC07CF /* AppDelegate.swift in Sources */,
 				9E99F0DE26E004BF00FC07CF /* FontCollections.swift in Sources */,
 				9E99F0EC26E0611D00FC07CF /* Activities.swift in Sources */,

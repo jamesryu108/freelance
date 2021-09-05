@@ -1,28 +1,29 @@
 //
-//  CustomLabel.swift
-//  CustomLabel
+//  CustomTextView.swift
+//  CustomTextView
 //
-//  Created by James Ryu on 2021-09-01.
+//  Created by James Ryu on 2021-09-04.
 //
 
 import Foundation
 import UIKit
 
-class CustomLabel: UILabel {
+class CustomTextView: UITextView {
         
     var size: CGFloat
     var weight: FontStyle
     
-    override init(frame: CGRect) {
+    override init(frame: CGRect, textContainer: NSTextContainer?) {
         
         self.size = 18
         self.weight = .regular
         
-        super.init(frame: frame)
-        
+        super.init(frame: CGRect.zero, textContainer: nil)
+
         self.font = MyFontCollections(fontName: .funkisQText).returnFont(size: size, weight: weight)
         
         self.translatesAutoresizingMaskIntoConstraints = false
+        
         
     }
     

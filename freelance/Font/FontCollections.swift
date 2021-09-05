@@ -29,7 +29,7 @@ class MyFontCollections {
     
     init(fontName: FontType = .funkisQText) {
         self.fontName = fontName
-        printFonts()
+        //printFonts()
     }
     
     /// Return an appropriate font based on what font you have selected.
